@@ -1,9 +1,7 @@
-import MyComponent from "./MyComponent";
-
+import Counter from "./Counter";
 
 const App = () => {
-  return <MyComponent name="react" favoriteNum={1}>리액트</MyComponent>
-}
-
+  return <Counter />;
+};
 
 export default App;
